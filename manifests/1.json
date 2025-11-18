@@ -1,0 +1,27 @@
+{
+  "manifest_id": "1",
+  "title": "落合世端（双幅）左",
+  "title_en": "Ochiai Sehata (Diptych Left Panel)",
+  "type": "manuscript",
+  "format": "diptych",
+  "source": "adeac",
+  "source_url": "https://trc-adeac.trc.co.jp/",
+  "date_created": "2025-11-18",
+  "original_filename_prefix": "003-left",
+  "canvases": [
+    {
+      "id": "0001",
+      "label": "Left Panel",
+      "s3_path": "1/0001.tif",
+      "original_filename": "003-left.tif",
+      "width": null,
+      "height": null,
+      "format": "image/tiff"
+    }
+  ],
+  "metadata": {
+    "attribution": "Source: ADEAC",
+    "license": null,
+    "description": "Left panel of the diptych depicting Ochiai Sehata"
+  }
+}
