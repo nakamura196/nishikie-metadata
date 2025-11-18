@@ -1,0 +1,67 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/5/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "ja": ["田原"],
+    "en": ["Tahara"]
+  },
+  "metadata": [
+    {
+      "label": { "en": ["Source"] },
+      "value": { "en": ["ADEAC"] }
+    },
+    {
+      "label": { "en": ["Format"] },
+      "value": { "en": ["Handscroll"] }
+    },
+    {
+      "label": { "en": ["Type"] },
+      "value": { "en": ["Manuscript"] }
+    }
+  ],
+  "summary": {
+    "en": ["Tahara handscroll"]
+  },
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["Source: ADEAC"] }
+  },
+  "items": [
+    {
+      "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/5/canvas/0001",
+      "type": "Canvas",
+      "label": { "en": ["Scroll"] },
+      "height": 3000,
+      "width": 76000,
+      "items": [
+        {
+          "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/5/page/0001",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/5/annotation/0001",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/5%2F0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/5%2F0001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 3000,
+                "width": 76000
+              },
+              "target": "https://nakamura196.github.io/nishikie-metadata/iiif/3/5/canvas/0001"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

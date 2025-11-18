@@ -1,0 +1,27 @@
+{
+  "manifest_id": "5",
+  "title": "田原",
+  "title_en": "Tahara",
+  "type": "manuscript",
+  "format": "handscroll",
+  "source": "adeac",
+  "source_url": "https://trc-adeac.trc.co.jp/",
+  "date_created": "2025-11-18",
+  "original_filename_prefix": "tahara",
+  "canvases": [
+    {
+      "id": "0001",
+      "label": "Scroll",
+      "s3_path": "5/0001.tif",
+      "original_filename": "tahara.tif",
+      "width": 76000,
+      "height": 3000,
+      "format": "image/tiff"
+    }
+  ],
+  "metadata": {
+    "attribution": "Source: ADEAC",
+    "license": null,
+    "description": "Tahara handscroll"
+  }
+}
