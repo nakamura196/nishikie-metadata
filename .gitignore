@@ -1,5 +1,6 @@
 # IIIF static tiles (managed in S3, not in Git)
 tiles/
+tiles-vips/
 
 # Python cache
 __pycache__/
@@ -9,4 +10,14 @@ __pycache__/
 # Temporary files
 *.tmp
 *.temp
+*.log
 .DS_Store
+
+# AWS CloudFormation outputs
+cloudfront-result.json
+
+# Old/temporary scripts
+generate_tiles.py
+
+# Blog drafts (publish separately if needed)
+blog-*.md
