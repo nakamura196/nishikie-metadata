@@ -1,0 +1,27 @@
+{
+  "manifest_id": "4",
+  "title": "和漢図",
+  "title_en": "Wakan-zu (Japanese-Chinese Illustrations)",
+  "type": "manuscript",
+  "format": "handscroll",
+  "source": "adeac",
+  "source_url": "https://trc-adeac.trc.co.jp/",
+  "date_created": "2025-11-18",
+  "original_filename_prefix": "wakozukan",
+  "canvases": [
+    {
+      "id": "0001",
+      "label": "Scroll",
+      "s3_path": "4/0001.tif",
+      "original_filename": "wakozukan.tif",
+      "width": 42000,
+      "height": 3000,
+      "format": "image/tiff"
+    }
+  ],
+  "metadata": {
+    "attribution": "Source: ADEAC",
+    "license": null,
+    "description": "Japanese-Chinese illustrated handscroll"
+  }
+}
