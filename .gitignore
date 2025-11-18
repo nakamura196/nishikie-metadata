@@ -1,0 +1,12 @@
+# IIIF static tiles (managed in S3, not in Git)
+tiles/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
