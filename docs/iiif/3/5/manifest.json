@@ -44,14 +44,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/5%2F0001/full/max/0/default.jpg",
+                "id": "https://iiif.lab.hi.u-tokyo.ac.jp/5/0001/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/5%2F0001",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.lab.hi.u-tokyo.ac.jp/5/0001",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
                   }
                 ],
                 "height": 3000,
