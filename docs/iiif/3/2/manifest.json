@@ -1,0 +1,67 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "ja": ["落合世端（双幅）右"],
+    "en": ["Ochiai Sehata (Diptych Right Panel)"]
+  },
+  "metadata": [
+    {
+      "label": { "en": ["Source"] },
+      "value": { "en": ["ADEAC"] }
+    },
+    {
+      "label": { "en": ["Format"] },
+      "value": { "en": ["Diptych"] }
+    },
+    {
+      "label": { "en": ["Type"] },
+      "value": { "en": ["Manuscript"] }
+    }
+  ],
+  "summary": {
+    "en": ["Right panel of the diptych depicting Ochiai Sehata"]
+  },
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["Source: ADEAC"] }
+  },
+  "items": [
+    {
+      "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/2/canvas/0001",
+      "type": "Canvas",
+      "label": { "en": ["Right Panel"] },
+      "height": 29800,
+      "width": 62588,
+      "items": [
+        {
+          "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/2/page/0001",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://nakamura196.github.io/nishikie-metadata/iiif/3/2/annotation/0001",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/2%2F0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://onmw6bcpc6cnfluolfvlzpqr6y0qaarr.lambda-url.ap-northeast-1.on.aws/iiif/3/2%2F0001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 29800,
+                "width": 62588
+              },
+              "target": "https://nakamura196.github.io/nishikie-metadata/iiif/3/2/canvas/0001"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
